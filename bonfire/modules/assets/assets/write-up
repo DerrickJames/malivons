@@ -1,0 +1,25 @@
+log_table
+	* id
+	* lab_no
+	* batch_no
+	* product_name
+	* type (tank e.g - 301, 302, 501, line - front, mid, end)
+	* exponential_tank_line (no / front, mid, end)
+	* date_time_sampled
+	* sampled_by
+	* created_by
+	* created_on
+
+tests_log_table
+	* id
+	* tests_required
+	* date_sample_received
+	* analysed_by (created_by)
+	* date/time (created_on)
+	* log_id
+	* test_id
+
+tests_tabe
+	* id
+	* test
+	* description
